@@ -102,5 +102,18 @@ namespace EjemploReceta
 
             return output;
         }
+
+
+        // Código a Desarrollar
+
+        public override object VisitElaboracion([NotNull] RecetaParser.ElaboracionContext context)
+        {
+            return base.VisitElaboracion(context);
+        }
+
+        public override object VisitDet_elaboracion([NotNull] RecetaParser.Det_elaboracionContext context)
+        {
+            return base.VisitDet_elaboracion(context);
+        }
     }
 }
